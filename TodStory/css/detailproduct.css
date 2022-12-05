@@ -1,0 +1,288 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #edca7f;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.navtext {
+    width: 900px
+}
+
+.navtext li a {
+    font-family: "Alegreya Sans";
+    font-weight: 700;
+    font-size: 25px;
+    color: #5a5a5a;
+    text-decoration: none;
+}
+
+.navtext li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.logoheader {
+    flex: 1;
+}
+
+.logoimg {
+    height: 70px;
+}
+
+.navbutton {
+    width: 280px;
+    list-style: none;
+}
+
+.navbutton li {
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 10px;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 50px;
+}
+
+.navbuttonimg {
+    width: 25px;
+    height: 25px;
+}
+
+.productdetails {
+    background-color: #d5d6ea;
+    padding: 50px;
+}
+
+.directory {
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.dirpcs {
+    display: inline-block;
+    margin: 0px 5px;
+    font-size: 22px;
+    text-decoration: none;
+    color: #353535;
+}
+
+.produkterpilih {
+    display: flex;
+}
+
+.gambarutamaproduk {
+    width: 160%;
+    margin-left: 100px;
+    float: left;
+}
+
+.gambarutamaimg {
+    width: 100%;
+    height: 50%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.gambarutamalain {
+    margin-top: 10px;
+}
+
+.gambarutamalainimg {
+    width: 35%;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.deskripsiproduk {
+    margin-left: 30px;
+    float: right;
+}
+
+.judulproduk {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.hargaproduk {
+    font-size: 40px;
+    margin-bottom: 55px;
+}
+
+.quantity {
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.jumlahproduk_wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.jumlahproduk {
+    display: flex;
+    flex-direction: row;
+    background-color: #d7ecd9;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    margin-right: 40px;
+}
+
+.minusicon {
+    width: 15px;
+}
+
+.angkajumlahproduk {
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.plusicon {
+    width: 15px;
+}
+
+.shareproduk {
+    display: inline-block;
+    width: 40px;
+}
+
+.produkbutton {
+    width: 600px;
+    background-color: #D7ECD9;
+    border-radius: 15px;
+    font-size: 28px;
+    text-align: center;
+    padding: 17px;
+    margin-bottom: 15px;
+}
+
+.teksdeskripsiproduk {
+    margin-top: 40px;
+    margin-right: 5%;
+}
+
+.halfteksdeskripsiproduk {
+    width: 60ch;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.readmoredeskripsi {
+    font-size: 20px;
+    color: #464646;
+}
+
+.produklain {
+    background-color: #edca7f;
+    padding: 150px 50px 100px 50px;
+}
+
+.produklain_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowproduk {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.leftarrow {
+    width: 35px;
+}
+
+.rightarrow {
+    width: 35px;
+}
+
+.produklainbox {
+    display: inline-block;
+    border-radius: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.gambarlainimg {
+    width: 100%;
+}
+
+.footer {
+    background-color: #f3ddf2;
+    padding: 30px;
+}
+
+.footbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 130px;
+}
+
+.foot_item {
+    list-style: none;
+    text-decoration: underline;
+}
+
+.foot_menu {
+    height: 30px;
+    margin-bottom: 25px;
+}
+
+.footer_nav_link {
+    text-decoration: none;
+    color: black;
+    font-family: "Alegreya";
+    font-size: 30px;
+}
+
+.kolom_email {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter {
+    border: white;
+    border-radius: 15px;
+    padding: 10px;
+    width: 500px;
+    font-size: 20px;
+}
+
+.blacklink {
+    color: black;
+}
+
+.greylink {
+    color: #464646;
+}
+
+.iconwrapper {
+    cursor: pointer;
+    z-index: 10000;
+}

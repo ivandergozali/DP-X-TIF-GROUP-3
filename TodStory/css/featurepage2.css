@@ -1,0 +1,300 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #edca7f;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.navtext {
+    width: 900px
+}
+
+.navtext li a {
+    font-family: "Alegreya Sans";
+    font-weight: 700;
+    font-size: 25px;
+    color: #5a5a5a;
+    text-decoration: none;
+}
+
+.navtext li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.logoheader {
+    flex: 1;
+}
+
+.logoimg {
+    height: 70px;
+}
+
+.navbutton {
+    width: 280px;
+    list-style: none;
+}
+
+.navbutton li {
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 10px;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 50px;
+}
+
+.navbuttonimg {
+    width: 25px;
+    height: 25px;
+}
+
+.directory {
+    text-decoration: none;
+    background-color: #d7ecd9;
+    padding: 5px 0px 5px 55px;
+}
+
+.dirpcs {
+    display: inline-block;
+    margin: 0px 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #353535;
+}
+
+.chatheader {
+    background-color: #f3ddf2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px 10px 110px;
+}
+
+.headerleft {
+    align-items: center;
+}
+
+.va_img {
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 60px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.va_text {
+    font-family: "Alegreya";
+    display: inline-block;
+}
+
+.va_name {
+    font-size: 40px;
+}
+
+.va_desc {
+    font-size: 20px;
+    color: #828a9f;
+}
+
+.headerright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 0px 0px;
+}
+
+.headericon {
+    width: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.chatbox {
+    background-color: #f5d5cb;
+    padding: 30px 110px;
+}
+
+.today {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todaytext {
+    /*font: inter*/
+    background: #d7ecd9;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.chatreceived {
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bubblechatreceived {
+    background-color: #ffffff;
+    padding: 10px 25px 10px 20px;
+    border-radius: 15px;
+}
+
+.chattext {
+    display: inline-block;
+    font-size: 24px;
+}
+
+.chattime {
+    display: inline-block;
+    margin-left: 5px;
+    color: #999999;
+}
+
+.chatsent {
+    justify-content: right;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bubblechatsent {
+    background-color: #d7ecd9;
+    padding: 10px 25px 10px 20px;
+    border-radius: 15px;
+}
+
+.chatsuggest {
+    background-color: #d7ecd9;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 0px;
+    width: 50%;
+    margin: 30px 0px 30px 130px;
+    padding: 0px 20px;
+}
+
+.questioncs {
+    padding: 5px 20px 5px 25px;
+    font-size: 24px;
+    border-bottom: 1px solid black;
+}
+
+.loadmorecs {
+    padding: 10px 10px 10px 25px;
+    font-size: 24px;
+    color: #464646;
+    text-decoration: underline;
+}
+
+.typechat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 40px;
+}
+
+.chatinputleft {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.chatinputleftcontain {
+    display: inline-block;
+}
+
+.chatinputright {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.chatlogo {
+    width: 40px;
+}
+
+.chat_input {
+    font-size: 25px;
+    border: none;
+    color: #000000;
+    padding: 15px 20px 15px 40px;
+    border-radius: 40px;
+    width: 500px;
+}
+
+.footer {
+    background-color: #f3ddf2;
+    padding: 30px;
+}
+
+.footbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 130px;
+}
+
+.foot_item {
+    list-style: none;
+    text-decoration: underline;
+}
+
+.foot_menu {
+    height: 30px;
+    margin-bottom: 25px;
+}
+
+.footer_nav_link {
+    text-decoration: none;
+    color: black;
+    font-family: "Alegreya";
+    font-size: 30px;
+}
+
+.kolom_email {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter {
+    border: white;
+    border-radius: 15px;
+    padding: 10px;
+    width: 500px;
+    font-size: 20px;
+}
+
+.blacklink {
+    color: black;
+}
+
+.greylink {
+    color: #464646;
+}

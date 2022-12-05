@@ -1,0 +1,331 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #edca7f;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navtext {
+    width: 900px
+}
+
+.navtext li a {
+    font-family: "Alegreya Sans";
+    font-weight: 700;
+    font-size: 25px;
+    color: #5a5a5a;
+    text-decoration: none;
+}
+
+.navtext li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.logoheader {
+    flex: 1;
+}
+
+.logoimg {
+    height: 70px;
+}
+
+.navbutton {
+    width: 280px;
+    list-style: none;
+}
+
+.navbutton li {
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 10px;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 50px;
+}
+
+.navbuttonimg {
+    width: 25px;
+    height: 25px;
+}
+
+.profileheader {
+    background-color: #e9b9aa;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profileleft {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.profilepictureimg {
+    border-radius: 15px;
+    border: none;
+    width: 300px;
+}
+
+.profileright {
+    display: inline-block;
+    position: relative;
+}
+
+.namaortu {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.namaanak {
+    font-size: 40px;
+}
+
+.profilenav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    bottom: -85px;
+}
+
+.profilenavbutton {
+    font-size: 28px;
+    display: inline-block;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-right: 20px;
+}
+
+.pengaturanakun {
+    position: absolute;
+    right: 80px;
+    top: 120px;
+    font-size: 25px;
+    padding: 10px 30px;
+    background-color: #edca7f;
+    border-radius: 30px;
+}
+
+.paketaktif {
+    background-color: #d7ecd9;
+    padding: 50px;
+}
+
+.paketaktifteks {
+    font-size: 40px;
+    color: #464646;
+    padding-left: 10px;
+    padding-bottom: 40px;
+}
+
+.paketaktiftengah {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.paketaktifdesc {
+    font-size: 35px;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 40px;
+    padding: 20px 40px;
+}
+
+.monthsprogress {
+    background-color: #8cb9c0;
+    padding: 15px;
+}
+
+.months {
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #e9b9aa;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.month {
+    padding: 15px 45px 15px 45px;
+    border-right: 1px solid black;
+}
+
+.monthend {
+    padding: 15px 50px 15px 50px;
+    border: none;
+}
+
+.profilebawah {
+    background-color: #d7ecd9;
+    padding: 50px;
+}
+
+.periodeberlangganan {
+    margin-bottom: 60px;
+}
+
+.periodeteksatas {
+    background-color: #d9d9d9;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 28px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.periodeteksbawah {
+    background-color: #d9d9d9;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.berhentiberlanggananbutton {
+    position: absolute;
+    top: 833px;
+    right: 80px;
+    border-radius: 15px;
+    background-color: #ff7d7d;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    font-size: 28px;
+}
+
+.produkdidapat {
+    font-size: 40px;
+}
+
+.produk_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.produkbox1 {
+    display: inline-block;
+    background-color: #f6ecf5;
+    border-radius: 40px;
+    padding: 10px 10px 20px 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.produkbox2 {
+    display: inline-block;
+    background-color: #f3ddf2;
+    border-radius: 40px;
+    padding: 10px 10px 20px 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.produkbox3 {
+    display: inline-block;
+    background-color: #8cb9c0;
+    border-radius: 40px;
+    padding: 10px 10px 20px 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.produkbox4 {
+    display: inline-block;
+    background-color: #f6f6eb;
+    border-radius: 40px;
+    padding: 10px 10px 20px 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.produkimg {
+    width: 350px;
+    border-radius: 35px 35px 0px 0px;
+}
+
+.namaproduk {
+    font-size: 35px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #f3ddf2;
+    padding: 30px;
+}
+
+.footbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 130px;
+}
+
+.foot_item {
+    list-style: none;
+    text-decoration: underline;
+}
+
+.foot_menu {
+    height: 30px;
+    margin-bottom: 25px;
+}
+
+.footer_nav_link {
+    text-decoration: none;
+    color: black;
+    font-family: "Alegreya";
+    font-size: 30px;
+}
+
+.kolom_email {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter {
+    border: white;
+    border-radius: 15px;
+    padding: 10px;
+    width: 500px;
+    font-size: 20px;
+}
+
+.blacklink {
+    color: black;
+}
+
+.greylink {
+    color: #464646;
+}

@@ -1,0 +1,368 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #edca7f;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.navtext {
+    width: 900px
+}
+
+.navtext li a {
+    font-family: "Alegreya Sans";
+    font-weight: 700;
+    font-size: 25px;
+    color: #5a5a5a;
+    text-decoration: none;
+}
+
+.navtext li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.logoheader {
+    flex: 1;
+}
+
+.logoimg {
+    height: 70px;
+}
+
+.navbutton {
+    width: 280px;
+    list-style: none;
+}
+
+.navbutton li {
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 10px;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 50px;
+}
+
+.navbuttonimg {
+    width: 25px;
+    height: 25px;
+}
+
+.directory {
+    text-decoration: none;
+    background-color: #d7ecd9;
+    padding: 5px 0px 5px 55px;
+}
+
+.dirpcs {
+    display: inline-block;
+    margin: 0px 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #353535;
+}
+
+.berlangganan {
+    background-color: #D5D6EA;
+    padding: 50px;
+}
+
+.berlanggananjudul {
+    display: flex;
+    font-size: 70px;
+    border: none;
+    border-radius: 70px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+.bagianlanggananjudul {
+    font-size: 50px;
+    padding: 20px 10px 10px 10px;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    margin-bottom: 30px;
+}
+
+.nomorcaraberlangganan {
+    width: 120px;
+    height: 120px;
+    margin-right: 50px;
+}
+
+.bagianlanggananisi {
+    margin-bottom: 40px;
+}
+
+.usiaanak_wrapper {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.usiaanak {
+    font-size: 30px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color: #F5D5CB;
+}
+
+.usiaanak:hover {
+    background-color: #EDCA7F;
+}
+
+.learningkit_wrapper {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.learningkitbox {
+    display: inline-block;
+    flex-direction: column;
+    background-color: #f5d5cb;
+    padding: 30px;
+    border-radius: 40px;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.learningkitpilihan {
+    font-weight: 700;
+    color: black;
+}
+
+.learningkitlain {
+    font-weight: 400;
+    color: #5a5a5a;
+}
+
+.carilearningkitlainbutton {
+    padding: 10px 30px;
+    border-radius: 40px;
+    text-align: center;
+    background-color: #8CB9C0;
+    font-size: 20px;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.paketharga_wrapper {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.paketharga {
+    display: inline-block;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 30px;
+    background-color: #e9b9aa;
+    border-radius: 40px;
+}
+
+.pakethargajudul {
+    font-family: "Alegreya Sans";
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.pakethargasubjudul {
+    font-size: 18px;
+    color: hsla(0, 0%, 35%, 1);
+    padding-bottom: 15px;
+}
+
+.pakethargaisi {
+    font-size: 18px;
+    color: #35353f;
+    padding: 10px 0px;
+}
+
+.checklist {
+    width: 12px;
+    height: 12px;
+}
+
+.hargapaket {
+    border-top: 1px solid black;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+.highlight_hargapaket {
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+}
+
+.pilihpaket {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #8cb9c0;
+    border-radius: 40px;
+    width: 300px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.lamaberlangganan_wrapper {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.lamaberlangganan {
+    font-size: 30px;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+.bagianlangganansubjudul {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: #3d3d3d;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tombollangganan_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.tombollangganan {
+    font-size: 35px;
+    background-color: #8cb9c0;
+    padding: 10px;
+    border-radius: 30px;
+    width: 20%;
+    text-align: center;
+}
+
+.virtualassistant {
+    background-color: #ffffff;
+    padding: 80px 110px;
+}
+
+.va_box {
+    border: none;
+    border-radius: 30px;
+    background-color: #edca7f;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 9px 13px 6px 4px rgba(0, 0, 0, 0.38);
+}
+
+.va_img {
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid black;
+    float: left;
+    width: 300px;
+    margin-right: 180px;
+}
+
+.va_text {
+    float: left;
+}
+
+.va_intro {
+    font-family: "Alegreya";
+    font-size: 90px;
+    text-align: center;
+    margin: 30px;
+}
+
+.va_bantuan {
+    text-decoration: underline;
+}
+
+.va_sub {
+    font-family: "Alegreya";
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+}
+
+.footer {
+    background-color: #f3ddf2;
+    padding: 30px;
+}
+
+.footbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 130px;
+}
+
+.foot_item {
+    list-style: none;
+    text-decoration: underline;
+}
+
+.foot_menu {
+    height: 30px;
+    margin-bottom: 25px;
+}
+
+.footer_nav_link {
+    text-decoration: none;
+    color: black;
+    font-family: "Alegreya";
+    font-size: 30px;
+}
+
+.kolom_email {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter {
+    border: white;
+    border-radius: 15px;
+    padding: 10px;
+    width: 500px;
+    font-size: 20px;
+}
+
+.blacklink {
+    color: black;
+}
+
+.greylink {
+    color: #464646;
+}
